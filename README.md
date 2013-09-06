@@ -14,4 +14,3 @@ You will find a Markdown file for each language that we have guidelines for with
 
 - No languages yet :)
 
-> If you're updating this document and adding a language, please consider a simple name for the guideline document, such as `objective-c.md`, and then add a link to it here.
