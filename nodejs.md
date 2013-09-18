@@ -20,11 +20,12 @@ The usage of these tools, and their integration as part of the project's test ru
 
 * [Language Style Conventions](#language-styles)
   * [Spacing](#spacing)
+  * [Trailing whitespaces](#trailing-whitespaces)
   * [Braces](#braces)
   * [Semicolons](#semicolons)
   * [Conditionals](#conditionals)
     * [Ternary Operator](#ternary-operator)
-  * [Trailing whitespaces](#trailing-whitespaces)
+  * [Variable declaration](#variable-declaration)
   * [Variable and property names](#variable-and-property-names)
   * [Class names](#class-names)
   * [Constants](#constants)
@@ -43,6 +44,10 @@ This section describes the prefered style for writting general Node.js code.
 ### Spacing
 
 [Ryan Dahl](http://nodeguide.com/community.html#ryan-dahl) has chosen to indent using 2 spaces. We chose to do the same as most of the community. Never indent with tabs. Be sure to set this preference in your text editor.
+
+### Trailing whitespaces
+
+Trailing whitespaces are unecessary. They should be cleaned up before committing.
 
 ### Braces
 
@@ -100,9 +105,23 @@ result = a > b ? x : y;
 result = a > b ? x = c > d ? c : d : y;
 ```
 
-### Trailing whitespaces
+### Variable declaration
 
-Trailing whitespaces are unecessary. They should be cleaned up before committing.
+One variable should be declared per statement. It makes it easier to re-order the lines. 
+
+**For example:**
+```javascript
+var keys = ['foo', 'bar'];
+var values = [23, 42];
+```
+
+**Not:**
+```javascript
+var keys = ['foo', 'bar'],
+    values = [23, 42],
+    object = {},
+    key;
+```
 
 ### Variable and property names
 
