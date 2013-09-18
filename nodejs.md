@@ -20,6 +20,7 @@ The usage of these tools, and their integration as part of the project's test ru
 
 * [Language Style Conventions](#language-styles)
   * [Spacing](#spacing)
+  * [Braces](#braces)
   * [Semicolons](#semicolons)
   * [Conditionals](#conditionals)
     * [Ternary Operator](#ternary-operator)
@@ -41,7 +42,11 @@ This section describes the prefered style for writting general Node.js code.
 
 ### Spacing
 
-* [Ryan Dahl](http://nodeguide.com/community.html#ryan-dahl) has chosen to indent using 2 spaces. We chose to do the same as most of the community. Never indent with tabs. Be sure to set this preference in your text editor.
+[Ryan Dahl](http://nodeguide.com/community.html#ryan-dahl) has chosen to indent using 2 spaces. We chose to do the same as most of the community. Never indent with tabs. Be sure to set this preference in your text editor.
+
+### Braces
+
+* Opening braces go on the same line as the statement.
 * `else` braces always open on the same line as the `if` statement closing brace and close on a new line.
 
 **For example:**
