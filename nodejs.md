@@ -65,14 +65,14 @@ Conditional bodies should always use braces even when a conditional body could b
 **For example:**
 ```javascript
 if (!error) {
-    return success;
+  return success;
 }
 ```
 
 **Not:**
 ```javascript
 if (!error)
-    return success;
+  return success;
 ```
 
 or
