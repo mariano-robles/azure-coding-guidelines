@@ -52,6 +52,22 @@ Trailing whitespaces are unecessary. They should be cleaned up before committing
 ### Braces
 
 * Opening braces go on the same line as the statement.
+
+**For example:**
+```javascript
+if (!error) {
+  return success;
+}
+```
+
+**Not:**
+```javascript
+if (!error)
+{
+  return success;
+}
+```
+
 * `else` braces always open on the same line as the `if` statement closing brace and close on a new line.
 
 **For example:**
