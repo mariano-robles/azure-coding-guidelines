@@ -42,7 +42,7 @@ This section describes the prefered style for writting general Node.js code.
 ### Spacing
 
 * [Ryan Dahl](http://nodeguide.com/community.html#ryan-dahl) has chosen to indent using 2 spaces. We chose to do the same as most of the community. Never indent with tabs. Be sure to set this preference in your text editor.
-* Method braces and other braces (`if`/`else`/`switch`/`while` etc.) always open on the same line as the statement and close on a new line.
+* `else` braces always open on the same line as the `if` statement closing brace and close on a new line.
 
 **For example:**
 ```javascript
@@ -289,7 +289,7 @@ For callback functions, a descriptive callback parameters list is prefered.
 * @param {Function(error, response)} callback - The callback that handles the response.
  */
 Requester.prototype.send = function(cb) {
-    // code
+  // code
 };
 ```
 
@@ -300,7 +300,7 @@ Requester.prototype.send = function(cb) {
  * @param {Requester~requestCallback} cb - The callback that handles the response.
  */
 Requester.prototype.send = function(cb) {
-    // code
+  // code
 };
 ```
 
