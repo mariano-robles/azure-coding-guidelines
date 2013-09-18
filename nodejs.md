@@ -280,6 +280,32 @@ When they are needed, comments should be used to explain why a particular piece 
 
 For documentation comments (i.e. comments used to generate the APIs documentation) [JsDoc 3](https://github.com/jsdoc3/jsdoc) should be used. A listing of available tags can be found in [here](http://usejsdoc.org/).
 
+For callback functions, a descriptive callback parameters list is prefered.
+
+**For example:**
+```javascript
+/**
+ * Send a request.
+* @param {Function(error, response)} callback - The callback that handles the response.
+ */
+Requester.prototype.send = function(cb) {
+    // code
+};
+```
+
+**Not:**
+```javascript
+/**
+ * Send a request.
+ * @param {Requester~requestCallback} cb - The callback that handles the response.
+ */
+Requester.prototype.send = function(cb) {
+    // code
+};
+```
+
+This way the generated documentation includes an in-line descriptive ‘Function(error, response)’ as part of the parameter description instead of a link to another part of the document.
+
 ## Object Oriented Style Conventions
 
 This section described general patterns and styles for Object Oriented Programming in Node.js
