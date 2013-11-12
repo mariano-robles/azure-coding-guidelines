@@ -12,6 +12,5 @@ You will find a Markdown file for each language that we have guidelines for with
 
 ## Languages & Technologies
 
-- [.NET and C#](dotnet.md)
-
-
+* [.NET and C#](dotnet.md)
+* [Node.js](nodejs.md)
