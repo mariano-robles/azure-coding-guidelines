@@ -1,6 +1,6 @@
 # Windows Azure Node.js Style Guide
 
-This style guide outlines the coding conventions for Node.js at the Windows Azure SDK team.
+This style guide outlines the coding conventions for Node.js by the Microsoft Azure SDK team.
 
 ## Introduction
 
