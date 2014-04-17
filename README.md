@@ -1,4 +1,4 @@
-# Windows Azure Coding Guidelines and Style Guide
+# Microsoft Azure Coding Guidelines and Style Guide
 
 This set of style guides and coding guidelines outline the conventions that the Microsoft Azure Developer Experience Team tries to use with its open source cloud SDKs.
 
